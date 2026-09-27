@@ -143,21 +143,6 @@ python3 -m http.server 8000
 
 ---
 
-## Engineering & Leadership
-
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=120&q=80" width="100" style="border-radius: 50%; border: 3px solid #D4AF37;" alt="Jawad Ahmad" />
-  <br>
-  <strong>Jawad Ahmad</strong><br>
-  <em>Full-Stack Engineer & Managing Principal</em>
-  <br><br>
-  <a href="https://jawadahmadliaqat.com/">Portfolio</a> •
-  <a href="https://github.com/jawadahmadliaqat-dot">GitHub</a> •
-  <a href="https://wa.me/923497538860">Direct Contact</a>
-</div>
-
----
-
 <p align="center" style="margin-top: 40px; font-size: 12px; color: #666;">
   Afumado is engineered for private client real estate marketing and institutional property advisory. 
   <br>All proprietary assets and content remain confidential.
