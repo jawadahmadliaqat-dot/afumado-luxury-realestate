@@ -1,218 +1,164 @@
 <div align="center">
 
   <a href="https://jawadahmadliaqat-dot.github.io/afumado-luxury-realestate/">
-    <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=34&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&height=70&lines=AFUMADO+LUXURY+REAL+ESTATE;PRIVATE+CLIENT+ADVISORY;CURATED+PROPERTY+MARKETING" alt="Afumado Luxury Real Estate" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=36&duration=3000&pause=1000&color=D4AF37&center=true&vCenter=true&width=800&height=80&lines=AFUMADO;LUXURY+REAL+ESTATE;CURATED+PRIVATE+MARKETS" alt="Afumado Luxury Real Estate Platform" />
   </a>
 
-  <p>
-    <strong>Bespoke Private Client Real Estate & Architectural Advisory Platform</strong><br>
-    <em>Luxury property marketing, valuation workflows, and direct client conversion designed for high-value real estate experiences.</em>
+  <p style="font-size: 16px; letter-spacing: 2px;">
+    <strong>Enterprise-Grade Property Advisory Platform</strong><br>
+    <em>Bespoke digital experience for UHNW clients, family offices, and institutional investors</em>
   </p>
 
   <p align="center">
     <a href="https://afumadoproperties.wuaze.com/">
-      <img src="https://img.shields.io/badge/Live_CMS-Active-22c55e?style=for-the-badge&logo=wordpress&logoColor=white" alt="Live CMS" />
+      <img src="https://img.shields.io/badge/Live_CMS-Production-D4AF37?style=for-the-badge&logo=wordpress&logoColor=white" alt="Live CMS" />
+    </a>
+    <a href="https://jawadahmadliaqat.com/">
+      <img src="https://img.shields.io/badge/Main_Site-jawadahmadliaqat.com-1f2937?style=for-the-badge&logo=globe&logoColor=D4AF37" alt="Main Site" />
     </a>
     <a href="https://jawadahmadliaqat-dot.github.io/afumado-luxury-realestate/">
-      <img src="https://img.shields.io/badge/GitHub_Showcase-Online-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
+      <img src="https://img.shields.io/badge/Showcase-GitHub_Pages-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
     </a>
-    <img src="https://img.shields.io/badge/PHP-8.1%2B-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.1+" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/PHP-8.1%2B-777BB4?style=for-the-badge&logo=php" alt="PHP 8.1+" />
+    <img src="https://img.shields.io/badge/WordPress-REST_API-21759B?style=for-the-badge&logo=wordpress" alt="WordPress REST API" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ES6+" />
   </p>
 
-  <p align="center">
-    <a href="https://jawadahmadliaqat-dot.github.io/afumado-luxury-realestate/">
-      <img src="https://img.shields.io/badge/🌐_Interactive_Showcase-Launch_App-0f172a?style=flat-square&labelColor=2563eb" height="32" alt="Launch App" />
-    </a>
-    <a href="https://afumadoproperties.wuaze.com/">
-      <img src="https://img.shields.io/badge/⚡_CMS_Portal-View_Live-0f172a?style=flat-square&labelColor=16a34a" height="32" alt="View Live CMS" />
-    </a>
-  </p>
-
 </div>
 
 ---
 
-# Afumado Luxury Real Estate
+## Overview
 
-Afumado is a luxury real estate and advisory platform built for premium property marketing, private-client engagement, and modern digital acquisition. The experience blends architectural storytelling, investment-grade presentation, and conversion-driven lead generation into a polished, mobile-first customer journey.
+Afumado is a purpose-built real estate technology platform engineered for ultra-high-net-worth (UHNW) individuals, family offices, and institutional capital. The platform delivers an elevated digital experience combining architectural storytelling, real-time valuation analytics, and frictionless lead conversion.
 
-## Live Deployments
-
-- Interactive Showcase: https://jawadahmadliaqat-dot.github.io/afumado-luxury-realestate/
-- Live WordPress CMS: https://afumadoproperties.wuaze.com/
-
-## Executive Summary
-
-This project is designed for ultra-high-net-worth clients, family offices, institutional investors, and luxury property buyers seeking a refined and data-rich digital experience. It combines:
-
-- premium listing presentation
-- real-time financial calculators
-- direct WhatsApp inquiry funnels
-- role-based administration for content updates
-- responsive design tailored for a luxury market
-
-The result is a hybrid architecture that balances editorial storytelling with operational flexibility, while keeping the platform lightweight and easy to maintain.
+**Live Environments:**
+- **Main Portfolio:** https://jawadahmadliaqat.com/
+- **CMS Portal:** https://afumadoproperties.wuaze.com/
+- **Showcase:** https://jawadahmadliaqat-dot.github.io/afumado-luxury-realestate/
 
 ---
 
-## Key Features
-
-### 1. Luxury Property Experience
-- Elegant multi-page real estate website experience
-- Cinematic hero sections and premium visual storytelling
-- Mobile-first responsive layouts for modern browsing
-- Curated portfolio and city-based filtering
-
-### 2. Client-Side Valuation Engine
-- Real-time property valuation calculator
-- Dynamic estimation logic based on market and property inputs
-- Instant buyer/seller decision support
-
-### 3. Mortgage & Financing Estimator
-- Live amortization and affordability calculator
-- Adjustable down payment, interest rate, and tenure inputs
-- Clear monthly obligation breakdown for prospective buyers
-
-### 4. WhatsApp Conversion Pipeline
-- Deep-linked WhatsApp inquiry flow
-- Pre-filled deal metadata including listing title, price, and URL
-- Reduced friction in lead capture and direct engagement
-
-### 5. Role-Based Front-End CMS Access
-- Secure admin controls for property updates
-- Public-facing read-only experience for visitors
-- Reduced exposure of backend tools to end users
-
-### 6. Performance & UX
-- Lightweight, animation-driven interface
-- Native browser APIs for smooth scroll and motion effects
-- Responsive visual enhancements without unnecessary dependencies
-
----
-
-## System Architecture
-
-```text
-                      [ CONTENT MANAGEMENT & DATA INPUT ]
-                         WordPress Core + ACF + PHP Hooks
-                                      │
-                    ┌─────────────────┴─────────────────┐
-                    ▼                                   ▼
-        [ CLIENT WORKFLOW ]                    [ VISITOR EXPERIENCE ]
-        • Property publishing                  • Luxury landing pages
-        • Structured custom fields             • Live search and filters
-        • Admin editing controls              • Real-time valuation tools
-                    │                                   │
-                    └─────────────────┬─────────────────┘
-                                      ▼
-                      [ WHATSAPP LEAD CONVERSION ]
-               Pre-filled property details + direct inquiry flow
-```
-
----
-
-## Platform Overview
-
-| Route | Page | Purpose |
-| --- | --- | --- |
-| `/` | Home | Premium brand presentation with hero visuals and market positioning |
-| `/properties/` | Portfolio | Property catalog with advanced search and city filters |
-| `/about-us/` | About | Firm profile, metrics, leadership, and institutional credibility |
-| `/valuation/` | Valuation Engine | Real-time valuation calculator and seller lead capture |
-| `/contact/` | Global Desks | Multi-location contact experience and confidential inquiry flow |
-| `/property/{slug}` | Property Detail | Architectural information, gallery, media, and CTA sidebar |
-| `#vip-portal` | VIP Portal | Secure client access modal demo |
-
----
-
-## Technology Stack
+## Technical Architecture
 
 ### Core Stack
-- WordPress
-- PHP 8.1+
-- Advanced Custom Fields (ACF)
-- Tailwind CSS
-- HTML5 / CSS3 / JavaScript (ES6+)
+```
+Backend: WordPress 6.x | PHP 8.1+ | REST API v2
+Data Layer: Advanced Custom Fields (ACF) Pro | Structured Data
+Frontend: Tailwind CSS 3.0 | Vanilla JavaScript (ES6+)
+Optimization: WebP Compression | Native Lazy Loading | 60fps GPU-Accelerated Animations
+SEO/Compliance: Schema Markup | Open Graph | Yoast SEO Integration
+```
 
-### Experience & Optimization
-- Native lazy loading for images
-- WebP-friendly asset strategy
-- CSS-based motion effects and transitions
-- Custom JavaScript interaction logic
+### Key Technical Features
 
-### SEO & Content Architecture
-- Semantic HTML structure
-- Open Graph metadata support
-- Structured content for discoverability and indexing
-- Framework-friendly content publishing workflow
+**1. Client-Side Valuation Engine**
+- Real-time property appraisal algorithm
+- Dynamic pricing multipliers by postal district, living area, architectural standard
+- Instant buyer/seller decision support
+- Lead capture integration
+
+**2. Advanced Data Normalization (ACF Architecture)**
+- Decoupled template logic into structured database fields
+- Standardized living area, price formatting, bed/bath data normalization
+- Multi-angle gallery management with 4K video walkthrough pipelines
+- Meta field optimization for SEO and structured data
+
+**3. WhatsApp Conversion Funnel**
+- Deep-linked pre-filled WhatsApp API endpoints (`https://wa.me/`)
+- Automated metadata injection (listing title, valuation, canonical URLs)
+- Eliminates manual inquiry friction—direct client engagement
+- Measurable conversion pipeline tracking
+
+**4. Role-Based Frontend Administration**
+- Security-gated admin controls via `current_user_can('edit_post')`
+- Client-side property publishing, editing, deletion
+- Zero exposure of WordPress admin interface to operations team
+- Public-facing read-only luxury experience
+
+**5. Performance & Motion Engineering**
+- Ken Burns architectural reel: Pure CSS GPU-rendered transforms (60fps, zero reflow)
+- Scroll-reveal engine: Native IntersectionObserver API (no external library overhead)
+- Native browser APIs for motion and scroll effects
+- Hardware-accelerated animations across all modern browsers
 
 ---
 
-## Local Setup
+## Platform Routes
 
-### 1) Clone the repository
+| Endpoint | Purpose | Technical Highlights |
+|---|---|---|
+| `/` | Hero Landing | Ken Burns cinematic reel, curated property cards, agency positioning |
+| `/properties/` | Portfolio Catalog | Real-time text search, city filter pills, off-market inquiry triggers |
+| `/valuation/` | Appraisal Engine | Algorithmic calculation, instant bracket ranges, seller lead funnel |
+| `/property/{slug}` | Detail View | 2-column sticky sidebar CTA, 8-point feature checklist, 4K video player, gallery |
+| `/contact/` | Global Desks | Multi-location layout (Beverly Hills, London Mayfair), confidential inquiry form |
+| `/about-us/` | Institutional Profile | Career metrics, leadership verification, institutional credibility markers |
+| `#vip-portal` | VIP Client Portal | Encrypted access modal, demo access-key validation |
+
+---
+
+## Deployment & Setup
+
+### Prerequisites
+- WordPress 6.x with ACF Pro
+- PHP 8.1+
+- Node.js (for local front-end development)
+- Git
+
+### Quick Start
 
 ```bash
+# Clone repository
 git clone https://github.com/jawadahmadliaqat-dot/afumado-luxury-realestate.git
 cd afumado-luxury-realestate
-```
 
-### 2) Preview the front-end
-
-Open `index.html` directly in a browser, or run a local server:
-
-```bash
+# Front-end preview (static assets)
 npx serve .
-```
-
-or
-
-```bash
+# or
 python3 -m http.server 8000
 ```
 
-Then visit:
+### WordPress Environment
 
-- `http://localhost:3000` for `npx serve`
-- `http://localhost:8000` for Python HTTP server
-
-### 3) WordPress environment
-
-- Import the included `.wpress` archive into LocalWP or a WordPress installation
-- Use the WordPress migration plugin if needed
-- Update permalink settings under:
-  - Settings → Permalinks → Post name
+1. Import `.wpress` archive into LocalWP or target WordPress installation
+2. Activate Advanced Custom Fields Pro
+3. Resave permalinks: **Settings → Permalinks → Post name**
+4. Configure WhatsApp webhook endpoints (optional)
 
 ---
 
-## Project Notes
+## Investment & Agency Value Proposition
 
-This project is positioned as a branded digital real estate experience with premium UX and strong conversion mechanisms. It is suitable for:
-
-- luxury residential portfolios
-- architectural showcase websites
-- private client property marketing
-- family-office and investor-facing property discovery
+✓ **Zero Technical Debt** — Built with modern architecture; no bloated theme dependencies  
+✓ **Vendor-Agnostic** — No platform lock-in; portable codebase  
+✓ **Conversion-Optimized** — Direct WhatsApp funnel eliminates form abandonment  
+✓ **Scalable Infrastructure** — REST API design supports multi-location expansion  
+✓ **Premium Positioning** — Luxury-grade UX differentiates from commodity real estate platforms  
+✓ **Operator-Friendly** — Role-based front-end CMS requires zero technical staff training  
 
 ---
 
-## Leadership
+## Engineering & Leadership
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&q=80" width="100" style="border-radius: 50%; border: 3px solid #3b82f6;" alt="Jawad Ahmad" />
+  <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=120&q=80" width="100" style="border-radius: 50%; border: 3px solid #D4AF37;" alt="Jawad Ahmad" />
   <br>
   <strong>Jawad Ahmad</strong><br>
-  <em>Lead Full-Stack Web Engineer & Managing Principal</em><br>
-  <a href="https://github.com/jawadahmadliaqat-dot">GitHub Profile</a> •
-  <a href="https://wa.me/923497538860">Direct WhatsApp</a> •
-  <a href="mailto:jawad@afumado.com">Private Desk Email</a>
+  <em>Full-Stack Engineer & Managing Principal</em>
+  <br><br>
+  <a href="https://jawadahmadliaqat.com/">Portfolio</a> •
+  <a href="https://github.com/jawadahmadliaqat-dot">GitHub</a> •
+  <a href="https://wa.me/923497538860">Direct Contact</a>
 </div>
 
 ---
 
-## License
-
-This project is intended for private branding and client-facing real estate presentation. Please review all proprietary assets and content before public reuse or redistribution.
-
+<p align="center" style="margin-top: 40px; font-size: 12px; color: #666;">
+  Afumado is engineered for private client real estate marketing and institutional property advisory. 
+  <br>All proprietary assets and content remain confidential.
+</p>
