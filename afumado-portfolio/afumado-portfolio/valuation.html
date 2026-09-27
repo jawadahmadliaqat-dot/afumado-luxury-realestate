@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estate Valuation Calculator | Afumado</title>
+  <meta name="description" content="Receive an instant institutional-grade market appraisal for your prime residential holding.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { primary: '#0B1426', accent: '#3B82F6' } } }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .btn-primary:hover { transform: scale(1.03); }
+  </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="flex items-center gap-2">
+          <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/></svg>
+          <span class="text-xl font-bold text-primary">Afumado</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="text-sm font-medium text-gray-600 hover:text-primary">Home</a>
+          <a href="properties.html" class="text-sm font-medium text-gray-600 hover:text-primary">Properties</a>
+          <a href="firm.html" class="text-sm font-medium text-gray-600 hover:text-primary">The Firm</a>
+          <a href="valuation.html" class="text-sm font-medium text-primary">Valuation</a>
+          <a href="contact.html" class="text-sm font-medium text-gray-600 hover:text-primary">Contact</a>
+          <a href="contact.html" class="ml-2 px-5 py-2.5 bg-primary text-white text-sm font-medium rounded-full">VIP Portal</a>
+        </nav>
+        <button id="menuBtn" class="md:hidden p-2 text-primary">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+      <div class="px-4 py-4 space-y-3">
+        <a href="index.html" class="block py-2 text-gray-600">Home</a>
+        <a href="properties.html" class="block py-2 text-gray-600">Properties</a>
+        <a href="firm.html" class="block py-2 text-gray-600">The Firm</a>
+        <a href="valuation.html" class="block py-2 text-primary font-medium">Valuation</a>
+        <a href="contact.html" class="block py-2 text-gray-600">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="pt-28 pb-16 bg-primary text-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <p class="text-accent text-sm font-medium tracking-wider uppercase mb-3">Private Client Advisory</p>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Instant Institutional Estate Valuation</h1>
+      <p class="text-gray-300 max-w-2xl mx-auto">Receive an algorithmically calibrated market appraisal for your prime residential holding.</p>
+    </div>
+  </section>
+
+  <!-- Calculator -->
+  <section class="py-16">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+        <h2 class="text-2xl font-bold text-primary mb-2">Estate Valuation Calculator</h2>
+        <p class="text-gray-500 text-sm mb-8">Configure your property specifics below to calculate estimated market worth.</p>
+
+        <form id="valuationForm" class="space-y-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Property Classification</label>
+            <select id="classification" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent bg-white">
+              <option value="1.0">Prime Skyline Penthouse</option>
+              <option value="1.15">Architectural Villa</option>
+              <option value="0.95">Waterfront Estate</option>
+              <option value="1.25">Historic Landmark Residence</option>
+              <option value="0.9">Contemporary Townhouse</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Metropolitan District</label>
+            <select id="district" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent bg-white">
+              <option value="2800">Beverly Hills, CA (Prime A+)</option>
+              <option value="2200">Downtown / Financial District</option>
+              <option value="1900">Palm Bay / Coastal</option>
+              <option value="3100">Mayfair, London</option>
+              <option value="2500">Bel-Air / Holmby Hills</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Total Living Area (sq ft)</label>
+            <input type="number" id="area" value="3200" min="800" max="20000" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Design & Finish Standard</label>
+            <select id="finish" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent bg-white">
+              <option value="1.0">Custom Architectural Bespoke</option>
+              <option value="0.85">High-End Contemporary</option>
+              <option value="0.7">Premium Standard</option>
+              <option value="1.15">Ultra-Luxury / Designer</option>
+            </select>
+          </div>
+
+          <button type="button" onclick="calculate()" class="w-full py-4 bg-primary text-white font-semibold rounded-xl hover:opacity-90 transition btn-primary">
+            Calculate Estimated Worth
+          </button>
+        </form>
+
+        <!-- Result -->
+        <div id="result" class="hidden mt-10 p-8 bg-primary rounded-2xl text-center text-white">
+          <p class="text-sm text-gray-300 uppercase tracking-wider mb-2">Estimated Current Market Worth</p>
+          <p id="price" class="text-4xl md:text-5xl font-bold text-accent mb-3">$0</p>
+          <p id="range" class="text-sm text-gray-300 mb-6">Target Bracket: —</p>
+          <a href="contact.html" class="inline-block px-8 py-3 bg-green-500 text-white font-medium rounded-full hover:bg-green-600 transition">Book Formal Private Appraisal</a>
+          <p class="text-xs text-gray-400 mt-6">*Algorithmic estimates based on trailing private transaction data. For formal valuation, contact our desk.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white pt-12 pb-8">
+    <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-400">
+      © 2026 Afumado Luxury Real Estate. Portfolio Project
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+
+    function calculate() {
+      const classification = parseFloat(document.getElementById('classification').value);
+      const district = parseFloat(document.getElementById('district').value);
+      const area = parseFloat(document.getElementById('area').value) || 0;
+      const finish = parseFloat(document.getElementById('finish').value);
+
+      const base = area * district * classification * finish;
+      const low = Math.round(base * 0.92);
+      const high = Math.round(base * 1.08);
+      const mid = Math.round(base);
+
+      document.getElementById('price').textContent = '$' + mid.toLocaleString();
+      document.getElementById('range').textContent = `Target Bracket: $${low.toLocaleString()} – $${high.toLocaleString()}`;
+      document.getElementById('result').classList.remove('hidden');
+      document.getElementById('result').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  </script>
+</body>
+</html>
